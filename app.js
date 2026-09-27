@@ -1,7 +1,7 @@
 const state={resources:[],deferredInstall:null};
 
 async function loadResources(){
-  const res=await fetch("../src/data/resources.json");
+  const res=await fetch("resources.json");
   state.resources=(await res.json()).resources||[];
   document.querySelector("#resourceCount").textContent=state.resources.length;
   render();
