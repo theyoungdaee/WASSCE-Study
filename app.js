@@ -40,5 +40,5 @@ window.addEventListener("beforeinstallprompt",e=>{
   e.preventDefault();state.deferredInstall=e;const b=document.querySelector("#installBtn");b.hidden=false;
   b.onclick=async()=>{if(!state.deferredInstall)return;state.deferredInstall.prompt();state.deferredInstall=null;b.hidden=true;}
 });
-if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js").catch(console.error));
+if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("service-worker.js").catch(console.error));
 loadResources();
