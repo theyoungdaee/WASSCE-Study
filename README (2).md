@@ -1,0 +1,2 @@
+# QA Checklist
+Test mobile/desktop layouts, search, filters, PWA install, service-worker updates, offline shell, resource authorization, expiry, mock marking, accessibility, broken links and performance.

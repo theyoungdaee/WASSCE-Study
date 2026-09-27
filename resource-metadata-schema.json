@@ -1,0 +1,19 @@
+{
+  "id": "string",
+  "title": "string",
+  "subject": "string|null",
+  "year": "number|null",
+  "paper": "string|null",
+  "category": "string",
+  "resourceType": "string",
+  "description": "string|null",
+  "file": "string|null",
+  "answerKey": "string|null",
+  "markingScheme": "string|null",
+  "accessDurationDays": "number",
+  "status": "ready|review|duplicate|incomplete|corrupt|mismatch",
+  "confidence": "high|medium|partial|low",
+  "reviewNotes": "string[]",
+  "createdAt": "ISO date",
+  "updatedAt": "ISO date"
+}

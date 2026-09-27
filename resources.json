@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-27",
+  "resources": [
+    {
+      "id": "review-0001",
+      "title": "WASSCE Practical Science Paper \u2014 source file under review",
+      "subject": "Integrated Science",
+      "year": 2026,
+      "paper": "Practical / paper section to verify",
+      "category": "Past Questions",
+      "resourceType": "Practical Question Paper",
+      "description": "Seven-page scanned paper containing practical/structured questions on the human excretory system, pH, potato-cell osmosis, and refraction/graph work.",
+      "file": "resources/inbox/review/new curriculum practical wassce 26.pdf",
+      "answerKey": null,
+      "markingScheme": null,
+      "accessDurationDays": 3,
+      "status": "review",
+      "confidence": "partial",
+      "reviewNotes": [
+        "The filename suggests a 2026 new-curriculum practical paper.",
+        "The scanned footer contains the code 26/WSC/SC5403/bf/ca/new.",
+        "The exact official subject/paper designation should be confirmed before moving this file into the final public taxonomy.",
+        "No answer key or marking scheme is present in the uploaded PDF."
+      ],
+      "createdAt": "2026-09-27",
+      "updatedAt": "2026-09-27"
+    }
+  ]
+}

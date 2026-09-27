@@ -1,0 +1,2 @@
+# Resource Access Contract
+A resource may be served only after backend authorization. The client must receive a short-lived authorized response, not a permanent public URL. Access records contain `userId`, `resourceId`, `grantedAt`, `expiresAt`, and `grantSource`.
